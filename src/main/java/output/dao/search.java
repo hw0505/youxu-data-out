@@ -15,8 +15,8 @@ public class search {
         try {
             Class.forName("org.postgresql.Driver");
             c = DriverManager.getConnection(
-                    "jdbc:postgresql://localhost:5432/db_person", "postgres",
-                    "123456");
+                    "jdbc:postgresql://demo1.yoxvtech.com:5432/thingsboard", "postgres",
+                    "youxu");
             c.setAutoCommit(false);
 
             System.out.println("连接数据库成功！");
